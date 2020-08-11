@@ -139,10 +139,46 @@
           </div>
         </nav>
 
-        <h2 class="mb-4">Section 2: Windows - Local Environment Setup</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <!-- Chapter 1 -->
+        <h5 style="background-color:yellow;">1. Tools</h5>
+        <p><b>XAMPP -</b> <a href="https://www.apachefriends.org/download.html">(https://www.apachefriends.org/download.html)</a></p>
+        <p><b>Git -</b> <a href="https://www.git-scm.com">(https://www.git-scm.com)</a></p>
+        <p><b>PHP Storm -</b> <a href="https://www.jetbrains.com/">(https://www.jetbrains.com/)</a></p>
+        <p><b>Visual Studio Code -</b> <a href="https://code.visualstudio.com/">(https://code.visualstudio.com/)</a></p>
+        <p><b>Composer -</b> <a href="https://getcomposer.org/">(https://getcomposer.org/)</a></p>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">php -v (to check the php version)</p>
+
+        <!-- Chapter 2 -->
+        <h5 style="background-color:yellow;">2. Using MySQL</h5>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">C:\xampp\mysql\bin\mysql -uroot -p (then enter password for MariaDB)</p>
+        <b>@MariaDB[(none)]>:</b>
+        <p style="text-indent:40px;">show databases; (display all database)</p>
+        <p style="text-indent:40px;">create database my_db; (create a database)</p>
+        <p style="text-indent:40px;">use my_db; (to get in here the database)</p>
+        <p style="text-indent:40px;">show tables; (to display all tables in database)</p>
+
+        <!-- Chapter 3 -->
+        <h5 style="background-color:yellow;">3. Installing Node.js</h5>
+        <p><b>Node -</b> <a href="https://nodejs.org/en/">(https://nodejs.org/en/)</a></p>
+        <p>Add in Environment Variables in PATH (C:\Users\Faculty\AppData\Roaming\npm)</p>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">node -v (check the version of node.js)</p>
+        <p style="text-indent:40px;">npm -v (check the version of npm)</p>
+
+        <!-- Chapter 4 -->
+        <h5 style="background-color:yellow;">4. Installing Laravel</h5>
+        <p><b>Laravel -</b> <a href="https://laravel.com/docs/7.x/installation">(https://laravel.com/docs/7.x/installation)</a></p>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">composer create-project –prefer-dist laravel/Laravel blog (installing the latest version of Laravel)</p>
+        <p style="text-indent:40px;">composer global require laravel/installer (download Laravel installer)</p>
+        <p style="text-indent:40px;">laravel new new-blog (crafting the Laravel application via installer)</p>
+        <p style="text-indent:40px;">npm run install (install the node package in Laravel package)</p>
+        <p style="text-indent:40px;">php artisan serve (it gives a link to view Laravel application)</p>
+
+
+
 
       </div>
   	</div>
