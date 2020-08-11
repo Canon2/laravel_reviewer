@@ -140,9 +140,72 @@
         </nav>
 
         <h2 class="mb-4">Section 4: Laravel Fundamentals - Routes</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <!-- Chapter 1 -->
+        <h5 style="background-color:yellow;">1. Serving Our App</h5>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">php artisan serve  (serving the Laravel application)</p>
+
+        <!-- Chapter 2 -->
+        <h5 style="background-color:yellow;">2. Additional Info</h5>
+        <p>blog>routes><b>web.php</b> (new location of routes.php)</p>
+
+        <!-- Chapter 3 -->
+        <h5 style="background-color:yellow;">3. Laravel Structure Overview</h5>
+        <p><b>app(folder) – </b>this is where we keep the Models and Controllers</p>
+        <p><b>Controllers(folder) – </b>controller classes</p>
+        <p><b>Middleware(folder) – </b>which is the security</p>
+        <p><b>Kernel.php – </b>where you register your security classes</p>
+        <p><b>routes/web.php – </b>we control the routes in our application here</p>
+        <p><b>app.php – </b>is where we register the other classes that we want to use from other provided, this is where we register the package</p>
+        <p><b>database.php – </b>setting up the database connection</p>
+        <p><b>.env – </b>our environment/global variables setup here, sensitive information here</p>
+        <p><b>.gitignore – </b>files added here are just been ignore when pushing in Git</p>
+        <p><b>mail.php – </b>we setup here our email</p>
+        <p><b>migrations(folder) – </b>executing our own commands to create a table</p>
+        <p><b>seeds(folder) – </b>we create a list of code if we want to create a lot of content for a website in our application</p>
+        <p><b>public(folder) – </b>having the CSS, JavaScript, images</p>
+        <p><b>resources(folder) – </b>having the assets, language, views folder</p>
+        <p><b>vendor(folder) – </b>this is where package is compiled and installed via npm run install</p>
+        <p><b>.env.example – </b>copy this to .env</p>
+        <p><b>composer.json – </b>this is where you use composer and requiring the packages </p>
+        <p><b>artisan – </b>used to generate controllers, models, tables, and directory</p>
+        <p><b>webpack.mix.js – </b>is the wrapper used in mix</p>
+
+
+        <!-- Chapter 4 -->
+        <h5 style="background-color:yellow;">4. Route Introduction</h5>
+        <p><b>routes – </b>are super important in Laravel, the URL in the address bar</p>
+
+        <!-- Chapter 5 -->
+        <h5 style="background-color:yellow;">5. Routes (part 1)</h5>
+        <p>Create a new Laravel project: <b>cms</b></p>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">laravel new cms (create a new Laravel application named “cms”)</p>
+        <p style="text-indent:40px;">composer create-project laravel/laravel new-cms (create a new-cms app)</p>
+        <p style="text-indent:40px;">npm run install (installing the package package.json)</p>
+        <b>@web.php:</b><br>
+        <img src="images/section_4/web_dot_php_1.PNG" alt=""><br><br>
+
+        <!-- Chapter 6 -->
+        <h5 style="background-color:yellow;">6. Routes (part 2)</h5>
+        <p>Creating more routes</p>
+        <p>Passing single parameter</p>
+        <p>Passing multiple parameter</p>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">php artisan route:list (check the available routes)</p>
+        <b>@web.php:</b><br>
+        <img src="images/section_4/web_dot_php_2.PNG" alt=""><br><br>
+
+        <!-- Chapter 7 -->
+        <h5 style="background-color:yellow;">7. Naming Routes</h5>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">php artisan route:list (check the available routes)</p>
+        <p style="text-indent:40px;"><img src="images/section_4/route_list.PNG" alt=""></p>
+        <b>@web.php:</b><br>
+        <img src="images/section_4/web_dot_php_3.PNG" alt=""><br><br>
+
+
 
       </div>
   	</div>
