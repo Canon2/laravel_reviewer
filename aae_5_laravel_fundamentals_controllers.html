@@ -140,9 +140,53 @@
         </nav>
 
         <h2 class="mb-4">Section 5: Laravel Fundamentals - Controllers</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <!-- Chapter 1 -->
+        <h5 style="background-color:yellow;">1. Intro to Chapter</h5>
+        <p><b>Controllers – </b>this classes that deals information with the Database and relate that information and display and passing information a View or a representation of our application, controlling the information in the View and taking it to Database</p>
+        <img src="images/section_5/controller_a.png" alt=""><br><br>
+        <img src="images/section_5/namespace_a.png" alt=""><br><br>
+        
+        <p><b>namespace – </b>it does for functions and classes, it allows us to use the same function name or Class Name in different part of the same application that we have</p>
+        <img src="images/section_5/namespace_b.png" alt=""><br><br>
+        <p><b>use – </b>is used to import the specific class from a namespace from the scope of the file</p>
+
+        <!-- Chapter 2 -->
+        <h5 style="background-color:yellow;">2. Creating Controllers</h5>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">php artisan make:controller PostsController (create a Controller)</p>
+        <p style="text-indent:40px;">php artisan make:controller --resource PostsController (create a Controller with CRUD)</p>
+
+        <!-- Chapter 3 -->
+        <h5 style="background-color:yellow;">3. Routing Controllers</h5>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">php artisan (view available artisan commands)</p>
+        <b>@web.php:</b><br>
+        <img src="images/section_5/routing_controller_a.png" alt=""><br><br>
+        <b>@PostsController.php:</b><br>
+        <img src="images/section_5/PostsController_a.png" alt=""><br><br>
+
+        <!-- Chapter 4 -->
+        <h5 style="background-color:yellow;">4. Passing Data</h5>
+        <b>@web.php:</b><br>
+        <img src="images/section_5/web_a.png" alt=""><br><br>
+        <b>@PostsController.php:</b><br>
+        <img src="images/section_5/PostsController_b.png" alt=""><br><br>
+
+        <!-- Chapter 5 -->
+        <h5 style="background-color:yellow;">5. Resources and Controllers</h5>
+        <p><b>Route resource – </b>it is a special static function like get() that will give us access to different types of routes, that we can use in Controllers</p>
+        <b>@web.php:</b><br>
+        <img src="images/section_5/web_b.png" alt=""><br><br>
+        <b>@CLI:</b>
+        <p style="text-indent:40px;">php artisan route:list (display the available routes in application)</p>
+        <p style="text-indent:40px;"><img src="images/section_5/route_list_a.png" alt=""></p>
+        <p style="text-indent:40px;">*it automatically gives us a name for our route</p>
+        <p style="text-indent:40px;">*http://127.0.0.1:8000/posts/create</p>
+        <p style="text-indent:40px;">*http://127.0.0.1:8000/posts/{post} -> http://127.0.0.1:8000/posts/1</p>
+
+        <b>@PostsController.php:</b><br>
+        <img src="images/section_5/PostsController_c.png" alt=""><br><br>
 
       </div>
   	</div>
